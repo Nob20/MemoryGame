@@ -1,0 +1,57 @@
+.Game {
+  text-align: center;
+  background-color: rgba(246, 250, 252, 0.835);
+  background-image: url("./images/background.jpg");
+  background-size: 1500px 1200px;
+  height: 865px;
+}
+
+.Game-header {
+  height: 30px;
+  padding: 10px;
+  color: rgb(17, 17, 17);
+  font-weight: 700;
+  font-size: 25px
+}
+
+.Game-title {
+  font-size: 2.0em;
+}
+
+.Game-status {
+  padding: 20px; 
+  font-size: 20px
+}
+
+.Game-intro {
+  font-size: large;
+}
+
+.Card {
+  display: inline-block;
+  border-color: gray;
+  border-width: 5px;
+  border-style: double;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;      
+  margin-left: 10px;  
+  width: 100px;    
+}
+
+.Matched {
+  border-color: #55cc88;
+  box-shadow: 10px 10px 5px grey;
+
+}
+
+.CardContainer {
+  display: inline-block;
+  max-width: 550px;
+  margin: '20px auto';
+  background-image: linear-gradient(to bottom right, rgb(189, 205, 219) , rgb(192, 240, 241));
+  border-style: double;
+  border-color: rgb(15, 15, 15);
+  border-width: 5px;
+  border-radius: 10px
+}
